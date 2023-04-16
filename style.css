@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background: #585c68;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+}
+
+a{
+    color: #296ab9;
+}
+/*Transiciones Iconos Redes*/
+.Facebook:hover{
+    transition: 0.8s;
+    color: #3b5998;
+}
+
+.GitHub:hover{
+    transition: 0.8s;
+    color: #171515;
+}
+
+.LinkedIn:hover{
+    transition: 0.8s;
+    color: #0e76a8;
+}
+
+.Whatsapp:hover{
+    transition: 0.8s;
+    color: #25D366;
+}
+/*Valores de fuentes a añadir*/
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.semi_bold {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.negrita{
+    font-weight: 500;
+    font-size: 16px;
+}
+/*Contenedor Principal*/
+.Contenedor{
+    display: flex;
+    width: 800px;
+    height: auto;
+    margin: 50px auto;
+}
+/*Modificaciones Contenedor Izquierdo*/
+.Contenedor .ContenedorIzquierdo{
+    width: 280px;
+    background: #296ab9;
+}
+/*Modificaciones Para la imagen, titulos y subtitulos*/
+.Contenedor .ContenedorIzquierdo .ContenedorPerfil{
+    width: 100%;
+    height: 280px;
+
+}
+
+.Contenedor .ContenedorIzquierdo .ContenedorPerfil img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.Contenedor .ContenedorIzquierdo .ContenedorInformacion{
+    padding: 0 25px;
+
+}
+
+.Contenedor .Titulo{
+    margin-bottom: 20px;
+}
+
+.Contenedor .ContenedorIzquierdo .bold{
+    color:#fff
+}
+
+.Contenedor .ContenedorIzquierdo .regular{
+    color: #b1eaff;
+}
+/*Modificaciones separador horizontal, Contenedor izquierdo*/
+.Contenedor .ContenedorArticulo{
+    padding: 25px 0;
+    border-bottom: 2px solid #b1eaff;
+}
+
+.Contenedor .ContenedorIzquierdo .ContenedorArticulo:last-child{
+    border: 0px;
+} 
+
+.Contenedor .ContenedorIzquierdo ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Contenedor .ContenedorIzquierdo ul li:last-child{
+    margin-bottom: 0;
+}
+/*Modificaciones iconos*/
+.Contenedor .ContenedorIzquierdo ul li .Icono{
+    position : relative;
+    width: 35px;
+    height: 35px;
+    color: #296ab9;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: #fff;
+    font-size: 16px;
+}
+
+.Contenedor .Icono i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Modificaciones texto de Informacion y habilidades*/
+.Contenedor .ContenedorIzquierdo ul li .Data{
+    color: #b1eaff;
+}
+
+.Contenedor .ContenedorIzquierdo .Habilidades ul li{
+    display: flex;
+    color: #b1eaff;
+    margin-bottom: 10px;
+    justify-content:space-between;
+    align-items: center;
+}
+/*Modificaciones Barra de Habilidades*/
+.Contenedor .ContenedorIzquierdo .Habilidades ul li .HabilidadesNombre{
+    width: 25%;
+
+}
+
+.Contenedor .ContenedorIzquierdo .Habilidades ul li .HabilidadesProgreso{
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #009fd9;
+    position: relative;
+}
+
+.Contenedor .ContenedorIzquierdo .Habilidades ul li .HabilidadesPer{
+    width: 15%;
+}
+
+.Contenedor .ContenedorIzquierdo .Habilidades ul li .HabilidadesProgreso span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 10%;
+    background: #fff ;
+}
+
+/*Contenedor Derecho*/
+.Contenedor .ContenedorDerecho{
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+}
+
+.Contenedor .ContenedorDerecho .bold{
+    color: #296ab9;
+}
+
+.Contenedor .ContenedorDerecho .Experiencia ul,
+.Contenedor .ContenedorDerecho .Educacion ul
+{
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.Contenedor .ContenedorDerecho ul li{
+    position: relative;
+}
+.Contenedor .ContenedorDerecho ul li .Fecha{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom:5px;
+
+}
+
+.Contenedor .ContenedorDerecho .MiPerfil{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.Contenedor .ContenedorDerecho ul li .CargoLaboral{
+    margin-bottom:  20px;
+}
+
+.Contenedor .ContenedorDerecho ul li:last-child .CargoLaboral{
+    margin-bottom: 0;
+}
+
+.Contenedor .ContenedorDerecho .ContenedorArticulo:last-child{
+    border: 0px;
+} 
+
+.Contenedor .ContenedorDerecho .Hobbies{
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Contenedor .ContenedorDerecho .Hobbies ul li{
+    display: inline-block;
+    margin: 40px 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+.Contenedor .ContenedorDerecho .Hobbies ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #333;
+    color: #fff;
+    line-height: 60px;
+    font-size: 20px;
+    box-shadow: 0 3px 5px 0px rgba(0,0,0, .2);
+    transition: .2s;
+}
+
+.Contenedor .ContenedorDerecho .Hobbies ul:hover a{
+    filter: blur(2px);
+}
+
+.Contenedor .ContenedorDerecho .Hobbies ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0 rgba(0,0,0, .4);
+    filter:none; 
+}
+
+.Contenedor .ContenedorDerecho .Hobbies ul li .Jugar:hover{
+    color: #8E7B78;
+}
+
+.Contenedor .ContenedorDerecho .Hobbies ul li .Estudiar:hover{
+    color: #009fd9;
+}
+
+.Contenedor .ContenedorDerecho .Hobbies ul li .Musica:hover{
+    color: #1DB954;
+}
+
+.Contenedor .ContenedorDerecho .Hobbies ul li .Peliculas:hover{
+    color: #E50914;
+}
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 4%;
+}
