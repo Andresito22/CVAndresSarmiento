@@ -283,9 +283,9 @@ a{
 
 
     .ContenedorPerfil{
-        display: inline-block !important;
         position: relative !important;
-        left: 25%;
+        
+        
     }
 
     .ImagenPerfil{
