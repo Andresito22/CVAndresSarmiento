@@ -66,6 +66,7 @@ a{
 .Contenedor .ContenedorIzquierdo{
     width: 280px;
     background: #296ab9;
+    float: left;
 }
 /*Modificaciones Para la imagen, titulos y subtitulos*/
 .Contenedor .ContenedorIzquierdo .ContenedorPerfil{
@@ -274,4 +275,45 @@ a{
     justify-content: center;
     position: relative;
     top: 4%;
+}
+
+
+
+@media screen and (max-width: 480px){
+
+
+    .ContenedorPerfil{
+        display: inline-block !important;
+        position: relative !important;
+        left: 25%;
+    }
+
+    .ImagenPerfil{
+        width: 250px !important;
+        height: 380px;
+        display: flex;
+        justify-content: center;
+        border-radius: 100%;
+        border: solid white 1px;
+        margin-top: 15px;
+        
+    }
+    .Contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 100% !important;
+    }
+    .ContenedorIzquierdo{
+        width: 100% !important;
+        height: 100%;
+        display: grid;
+    }
+    .Footer{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 2%;
+    }
+    
 }
