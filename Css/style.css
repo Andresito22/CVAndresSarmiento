@@ -301,11 +301,11 @@ a{
     .Contenedor{
         display: grid;
         grid-template-columns: 1fr;
-        width: 100%;
+        width: 100vh;
         height: 100% !important;
     }
     .ContenedorIzquierdo{
-        width: 100% !important;
+        width: 100vh !important;
         height: 100%;
         display: grid;
     }
