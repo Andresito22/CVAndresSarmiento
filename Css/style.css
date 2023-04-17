@@ -301,19 +301,24 @@ a{
     .Contenedor{
         display: grid;
         grid-template-columns: 1fr;
-        width: 100vh;
-        height: 100% !important;
+        width: 100vw;
+        margin: 0;
     }
     .ContenedorIzquierdo{
-        width: 100vh !important;
+        width: 100vw !important;
         height: 100%;
         display: grid;
+    }
+
+    .ContenedorDerecho{
+        width: 100vw !important;
     }
     .Footer{
         display: flex;
         justify-content: center;
         position: relative;
         top: 2%;
+        font-size: 12px;
     }
     
 }
