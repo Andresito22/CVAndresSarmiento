@@ -72,6 +72,7 @@ a{
 .Contenedor .ContenedorIzquierdo .ContenedorPerfil{
     width: 100%;
     height: 280px;
+    text-align: center;
 
 }
 
@@ -282,20 +283,13 @@ a{
 @media screen and (max-width: 480px){
 
 
-    .ContenedorPerfil{
-        position: relative !important;
-        
-        
-    }
-
     .ImagenPerfil{
         width: 250px !important;
         height: 380px;
-        display: flex;
-        justify-content: center;
         border-radius: 100%;
         border: solid white 1px;
         margin-top: 15px;
+        text-align: center !important;
         
     }
     .Contenedor{
@@ -318,7 +312,7 @@ a{
         justify-content: center;
         position: relative;
         top: 2%;
-        font-size: 12px;
+        font-size: 11px;
     }
     
 }
