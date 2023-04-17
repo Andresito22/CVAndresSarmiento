@@ -316,3 +316,12 @@ a{
     }
     
 }
+@media screen and (max-width: 768px){
+
+
+    .Contenedor{
+        margin: 0;
+    }
+    
+
+}
